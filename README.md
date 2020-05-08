@@ -12,7 +12,7 @@ Clone the repository and copy all files and folder in your main directory.
 
 ## Starting the AI
 
-First launch `subcribe.py` file subscribe the player to the main server using 
+First launch `subcribe.py` file to subscribe the player to the main server using 
 the `profile.json` file that contains profile data.
 Then you can launch `AI_Server.py` that is a small server that host the AI algorithm.
 
