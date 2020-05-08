@@ -1,7 +1,9 @@
 # AI Server
 
 A Simple AI Server implementing minimax and alpha-beta pruning algorithm on the game AVALAM.
+
 Authors: Mitrovic Nikola [18365]
+
 Date: 5/08/2020
 
 ## Installation
@@ -16,7 +18,7 @@ Then you can launch `AI_Server.py` that is a small server that host the AI algor
 
 
 ## File Check
-It need the folowing files in the ai folder, please don't modify folder or files name:
+It need the folowing files in the `ai` folder, please don't modify folder or files name:
 
 ```
 __init__.py
