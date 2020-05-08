@@ -18,10 +18,12 @@ Then you can launch `AI_Server.py` that is a small server that host the AI algor
 
 
 ## File Check
-It need the folowing files in the `ai` folder, please don't modify folder or files name:
+To successfully work, check the folowing files in the `ai` folder :
 
 ```
 __init__.py
 ai.py
 map_pool.py
 ```
+
+Please don't modify folder or files name:
