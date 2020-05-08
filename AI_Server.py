@@ -1,4 +1,4 @@
-import socket, os, json, transmitJSON, cherrypy, sys, copy, time
+import socket, json, transmitJSON, cherrypy, sys, copy, time
 from random import randint
 from ai.ai import AI
 
