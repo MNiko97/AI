@@ -8,7 +8,7 @@ Date: 5/08/2020
 
 ## Installation
 
-Clone the repository 
+Clone the repository and copy all files and folder in your main directory.
 
 ## Starting the AI
 
@@ -26,4 +26,4 @@ ai.py
 map_pool.py
 ```
 
-Please don't modify folder or files name:
+Please don't modify folder name of move files outside the folder.
