@@ -15,13 +15,17 @@ class AI(MapPool):
         self.pool.create(self.position)
 
     def run(self):
-        for i in range(1, 15):
+        for i in range(1, 20):
             print("depth :", i)
             if time.time() < self.timeout:
                 res = self.bestMove(self.position, 0, i, -1000, 1000)
                 print("result :", res)
                 x1, y1, x2, y2 = res
-                move = {"move": {"from": [x1, y1], "to": [x2, y2]}, "message": "I'm the Alpha I'm the Beta and I can see {} round in the future".format(int(i/2))}
+                if i%2 == 0:
+                    level = i/2
+                else:
+                    level = (i-1)/2
+                move = {"move": {"from": [x1, y1], "to": [x2, y2]}, "message": "I'm the Alpha I'm the Beta and I can see {} round in the future".format(int(level))}
             else:
                 break
         print("My move :", move)
