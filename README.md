@@ -14,11 +14,11 @@ Clone the repository and copy all files and folder in your main directory.
 
 First launch `subcribe.py` file to subscribe the player to the main server using 
 the `profile.json` file that contains profile data.
-Then you can launch `AI_Server.py` that is a small server that host the AI algorithm.
+Then you can run `AI_Server.py` that is a small server that host the AI algorithm.
 
 
 ## File Check
-To successfully work, check the folowing files in the `ai` folder :
+To work successfully, check the folowing files in the `ai` folder :
 
 ```
 __init__.py
@@ -26,4 +26,4 @@ ai.py
 map_pool.py
 ```
 
-Please don't modify folder name of move files outside the folder.
+Please don't modify folder name or move files outside the folder.
