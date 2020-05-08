@@ -21,7 +21,7 @@ class AI(MapPool):
                 res = self.bestMove(self.position, 0, i, -1000, 1000)
                 print("result :", res)
                 x1, y1, x2, y2 = res
-                move = {"move": {"from": [x1, y1], "to": [x2, y2]}, "message": "I'm the Alpha I'm the Beta and I can see {} round in the future".format(i/2)}
+                move = {"move": {"from": [x1, y1], "to": [x2, y2]}, "message": "I'm the Alpha I'm the Beta and I can see {} round in the future".format(int(i/2))}
             else:
                 break
         print("My move :", move)
